@@ -1,9 +1,9 @@
 $(document).ready(function () {
   var feed = new Instafeed({
-    get: "user",
-    userID: 512819861478832,
+    // get: "user",
+    // userID: 512819861478832,
     accessToken:
-      "IGQWRPOXA2Vk5vOXlOSU81ZATFfTV9mN1A0OXgzcjNrMFZAVQkVEMHNoNkZAmWnBmTVh5OXJSN3hMVHBfRldEVnVPSFRGR0pGUEVpdVFKX2cxa1luWVFkbUNqcGM4bVdTT19ibjJjbGFRQTlHZAmpxV0ZA2c1FqTjZAKVEUZD",
+      "IGQWRQRWJHd29hY1lBcENaS1E2UVJuRXdEY0NENGhNS09pSzZAoSEgxQUJyWTBvZAkFxV0pNdTROakd4QzZA0UFlFdTJpLVpxNUFaSGN2a3htV21oUER3SUgwdUx3bkNEOWkxQmJKQnRydlJLMDA2RzJmOFB2OXNZARFkZD",
     resolution: "standart_resolution",
   });
   feed.run();
